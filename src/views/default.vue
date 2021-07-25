@@ -1,0 +1,21 @@
+<template>
+  <div class="default">
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </nav>
+    <main class="main">
+      <slot />
+    </main>
+    <footer>
+      <div>Vue Workshop Chapter 06</div>
+    </footer>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+</style>
